@@ -1,4 +1,4 @@
-# 介绍
+# 提案介绍
 该方案将 Cuelib 内置到 Stack 仓库，使 Cuelib 可以跨 Stack 引用，以解决 submodule 开发和维护难的问题，将 Cuelib 和 Stack 在目录结构上进一步解耦，为将来实现 Stack 之间的代码复用做铺垫。
 
 以往 submodule 模式的开发过程比较麻烦，需要涉及两个串行步骤：
