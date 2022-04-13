@@ -12,7 +12,10 @@ Submodule 的开发方式主要的问题是 Stack Submodule 目录容易出现�
 
 # 如何开发
 ## 安装依赖
-`hof mod vendor cue && dagger project update`
+```
+git clone git@github.com:lyzhang1999/stack.git
+hof mod vendor cue && dagger project update
+```
 
 ## 执行 Stack Plan
 ```
